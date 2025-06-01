@@ -1,0 +1,7 @@
+# Network Scan Results - Task 1
+# Date: May 26, 2025
+# Scanner: Nmap
+# Target: 192.168.1.0/24
+# Scan Type: TCP SYN Scan (-sS)
+
+# Add your actual scan results here after running the scan
