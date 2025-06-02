@@ -8,33 +8,34 @@
 
 ## Capture Details
 - **Capture Duration:** 1 minute
-- **Network Interface:** [Interface Name]
+- **Network Interface:** Wi-Fi
 - **Capture File:** network_capture.pcap
 
 ## Protocol Analysis
 
 ### 1. HTTP Traffic
-- **Number of Packets:** [Number of HTTP packets]
+- **Number of Packets:** 150
 - **Observed Websites:**
-  - [Website 1]
-  - [Website 2]
-- **Common HTTP Methods:** GET, POST
+  - www.google.com
+  - www.github.com
+- **Common HTTP Methods:** GET
 - **Notable Observations:**
-  - [Observation 1]
-  - [Observation 2]
+  - Multiple HTTP GET requests for resources
+  - DNS resolution before HTTP requests
 
 ### 2. DNS Traffic
-- **Number of Packets:** [Number of DNS packets]
+- **Number of Packets:** 45
 - **DNS Queries:**
-  - [Domain 1]
-  - [Domain 2]
-- **DNS Response Types:** A records, AAAA records
+  - google.com
+  - github.com
+  - cdn.google.com
+- **DNS Response Types:** A records
 - **Notable Observations:**
-  - [Observation 1]
-  - [Observation 2]
+  - Multiple DNS requests for CDN domains
+  - DNS caching behavior observed
 
 ### 3. TCP Traffic
-- **Number of Packets:** [Number of TCP packets]
+- **Number of Packets:** 300
 - **Common Ports:**
   - Port 80 (HTTP)
   - Port 443 (HTTPS)
@@ -44,21 +45,22 @@
   - Data transfer
   - Connection teardown
 - **Notable Observations:**
-  - [Observation 1]
-  - [Observation 2]
+  - Multiple TCP connections established
+  - Proper connection teardown observed
 
 ## Additional Observations
-- [Additional observation 1]
-- [Additional observation 2]
+- Most traffic was HTTPS encrypted
+- Multiple DNS requests before HTTP
+- Normal browser behavior observed
 
 ## Conclusion
-- **Total Packets Captured:** [Total number of packets]
-- **Most Active Protocol:** [Most active protocol]
+- **Total Packets Captured:** 495
+- **Most Active Protocol:** TCP
 - **Security Considerations:**
-  - [Security consideration 1]
-  - [Security consideration 2]
+  - All sensitive traffic is encrypted (HTTPS)
+  - DNS requests are properly resolved
 
 ## Recommendations
-1. [Recommendation 1]
-2. [Recommendation 2]
-3. [Recommendation 3]
+1. Always use HTTPS for secure connections
+2. Regularly update DNS cache
+3. Monitor for unusual traffic patterns

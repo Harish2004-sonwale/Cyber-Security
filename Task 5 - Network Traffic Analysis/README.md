@@ -27,7 +27,7 @@ Capture and analyze network traffic to identify basic protocols and traffic type
 
 ## Directory Structure
 ```
-Task 5 - Network Traffic Analysis/
+Tak 5/
 ├── README.md
 ├── capture/
 │   └── network_capture.pcap
