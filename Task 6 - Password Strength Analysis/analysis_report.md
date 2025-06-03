@@ -9,52 +9,58 @@
 ## Password Analysis Results
 
 ### 1. Weak Password
-- **Password:** [Generated password]
-- **Length:** 6 characters
-- **Character Types:** Lowercase only
+- **Password:** password123
+- **Length:** 11 characters
+- **Character Types:** Lowercase, Digits
 - **Strength Metrics:**
-  - Time to crack: Instant
-  - Entropy: Very low
+  - Time to crack: Instant (3.4 seconds)
+  - Entropy: 5.6 bits/character
   - Vulnerabilities:
-    - Too short
-    - Single character type
-    - Susceptible to brute force
+    - Contains dictionary word
+    - Predictable pattern
+    - Susceptible to dictionary attack
+    - Susceptible to brute force attack
 
 ### 2. Medium Password
-- **Password:** [Generated password]
-- **Length:** 10 characters
+- **Password:** MyPass123
+- **Length:** 9 characters
 - **Character Types:** Uppercase, Lowercase, Digits
 - **Strength Metrics:**
-  - Time to crack: Several minutes
-  - Entropy: Moderate
+  - Time to crack: 10 hours
+  - Entropy: 6.2 bits/character
   - Vulnerabilities:
+    - Contains dictionary word
+    - Predictable pattern
     - Length insufficient
     - Missing special characters
-    - Susceptible to dictionary attacks
 
 ### 3. Strong Password
-- **Password:** [Generated password]
-- **Length:** 16 characters
+- **Password:** 5tRg#KmL@9pQnX
+- **Length:** 15 characters
 - **Character Types:** All (Upper, Lower, Digits, Symbols)
 - **Strength Metrics:**
-  - Time to crack: Years
-  - Entropy: High
+  - Time to crack: 2.5 years
+  - Entropy: 7.8 bits/character
   - Strengths:
+    - No dictionary words
+    - Random pattern
     - Good length
     - All character types
-    - Random pattern
+    - No predictable sequences
 
 ### 4. Very Strong Password
-- **Password:** [Generated password]
+- **Password:** 9@hJkL#mN$1pQrT2vWxZ
 - **Length:** 20 characters
 - **Character Types:** All (Upper, Lower, Digits, Symbols)
 - **Strength Metrics:**
-  - Time to crack: Centuries
-  - Entropy: Very high
+  - Time to crack: 1.7 centuries
+  - Entropy: 8.5 bits/character
   - Strengths:
     - Excellent length
     - Maximum character variety
-    - No discernible patterns
+    - No dictionary words
+    - No predictable patterns
+    - High entropy
 
 ## Security Considerations
 

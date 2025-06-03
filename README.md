@@ -1,30 +1,62 @@
 # Cyber Security Tasks
 
-This repository contains solutions to various cyber security tasks and assignments.
+This repository contains comprehensive solutions to various cyber security tasks and assignments, each focusing on different aspects of cybersecurity.
 
 ## Tasks
 
 ### Task 1 - Network Port Scanning
-- Implementation of network port scanning
-- Includes Python scripts for scanning open ports
-- Documentation of methodology and findings
+- **Objective:** Identify open ports and services on target systems
+- **Tools Used:** Python, socket programming
+- **Deliverables:**
+  - Python script for port scanning
+  - Scan results documentation
+  - Security recommendations
+  - Port analysis report
 
 ### Task 2 - Phishing Analysis
-- Analysis of phishing email samples
-- Documentation of phishing indicators
-- Prevention strategies and best practices
+- **Objective:** Analyze and identify phishing attempts
+- **Tools Used:** Email analysis, HTML parsing
+- **Deliverables:**
+  - Phishing email analysis
+  - Indicator identification
+  - Prevention strategies
+  - Security awareness recommendations
 
 ### Task 3 - Vulnerability Scanning
-- Implementation of vulnerability scanning
-- Documentation of findings and recommendations
-- Nmap scan results included
-- Security recommendations provided
+- **Objective:** Perform system vulnerability assessment
+- **Tools Used:** Nmap, Python
+- **Deliverables:**
+  - Vulnerability scan results
+  - Risk assessment report
+  - Security recommendations
+  - Patch management suggestions
 
 ### Task 4 - Windows Firewall
-- Windows Firewall rule management
-- Blocking and allowing specific ports
-- PowerShell script automation
-- Security testing procedures
+- **Objective:** Configure and test Windows Firewall rules
+- **Tools Used:** PowerShell, Windows Firewall API
+- **Deliverables:**
+  - Firewall rule configuration scripts
+  - Security testing procedures
+  - Documentation of rules
+  - Cleanup scripts
+
+### Task 5 - Network Traffic Analysis
+- **Objective:** Capture and analyze network traffic
+- **Tools Used:** Wireshark
+- **Deliverables:**
+  - Network capture (.pcap) files
+  - Protocol analysis
+  - Traffic patterns documentation
+  - Security observations
+
+### Task 6 - Password Strength Analysis
+- **Objective:** Understand and evaluate password strength
+- **Tools Used:** Python, Online password checkers
+- **Deliverables:**
+  - Password generation scripts
+  - Strength metrics documentation
+  - Analysis reports
+  - Best practices guidelines
 
 ## Project Structure
 ```
