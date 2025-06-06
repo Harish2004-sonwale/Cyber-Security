@@ -1,4 +1,4 @@
-# Task 8 - Understanding VPNs
+# Task 8 - Working and Understanding VPN
 
 ## Objective
 To understand the role of VPNs in protecting privacy and secure communication through practical implementation and analysis.
