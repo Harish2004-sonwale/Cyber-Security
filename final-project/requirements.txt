@@ -1,0 +1,4 @@
+zxcvbn-python==4.4.24
+nltk==3.8.1
+python-nmap==0.7.1
+requests==2.31.0
